@@ -53,22 +53,76 @@ Modules:
 ## Project Screenshots
 
 ### SOC Dashboard
-(Add screenshot here)
+(<screenshots/dashboard.png>)
+
+### device
+(<screenshots/device.png>)
 
 ### Attack Detection
-(Add screenshot here)
+(<screenshots/detect attack.png>)
+(<screenshots/detect attack(cyber attack).png>)
+
+### confusion matrix
+(<screenshots/confusion matrix.png>)
 
 ### Port Scanner
-(Add screenshot here)
+(<screenshots/scanport.png>)
 
 ### Network Traffic Graph
-(Add screenshot here)
+(<screenshots/network traffic.png>)
 
 ---
 
 ## How to Run
 
-Install dependencies
+1. Install dependencies
 
 ```bash
 pip install numpy pandas scikit-learn matplotlib seaborn scapy
+
+2. Generate Dataset
+
+python generate_dataset.py
+
+3. Train the Machine Learning Model
+
+python train_model.py
+
+4. Run the SOC Cybersecurity Dashboard
+
+python security_dashboard.py
+
+
+5. Test Attack Detection
+
+Example normal traffic:
+
+60,1,3,4000,3500,1400,40,30,9
+
+Example attack traffic:
+
+10,0,1,1200,300,500,5,3,1
+
+6. Port Scanner
+
+Enter target IP address:
+
+127.0.0.1
+
+or
+
+192.168.1.1
+
+7. IoT Device Discovery
+
+Click Discover IoT Devices to detect active devices in the local network.
+
+8. Network Traffic Visualization
+
+Click Show Network Traffic Graph to visualize network activity.
+
+Author
+
+Aathila Fathima
+B.Tech Final Year Project – Cybersecurity / Computer Science
+
