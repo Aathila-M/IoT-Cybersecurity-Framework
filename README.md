@@ -121,8 +121,10 @@ Click Discover IoT Devices to detect active devices in the local network.
 
 Click Show Network Traffic Graph to visualize network activity.
 
+
+Project Type
+This is a portfolio project created after B.Tech graduation to demonstrate applied machine learning, NLP, Flask, and database integration skills.
+
 Author
-
-Aathila Fathima
-B.Tech Final Year Project – Cybersecurity / Computer Science
-
+Aathila M
+GitHub: Aathila-M
